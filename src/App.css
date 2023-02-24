@@ -90,6 +90,46 @@
   grid-area: E;
   position: relative;
 }
+.block-2-third p, .block-2-second p, .block-2-first p, .block-2-fouth p, .block-2-fifth p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  position: absolute;
+  bottom: 0;
+  margin: 15px;
+  text-align: left;
+}
+.block-3 {
+  display: grid;
+  place-items: center;
+  gap: 10px;
+  grid-template-areas:
+    "A A A A   B B B B  B B B B"
+    "C C C C   B B B B  B B B B";
+    margin-bottom: 10px;
+}
+.block-3-first {
+  grid-area: A;
+  position: relative;
+}
+.block-3-second{
+  grid-area: B;
+}
+.block-3-third {
+  grid-area: C;
+  position: relative;
+}
+.block-3-third p, .block-3-first p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  position: absolute;
+  bottom: 0;
+  margin: 15px;
+  text-align: left;
+}
 .big-block {
   max-width: 492px;
   width: 100vw;
@@ -129,4 +169,12 @@
   max-height: 155px;
   width: 100vw;
   height: 100vw;
+}
+.green {
+  background: #E3EBD3;
+  text-align: center;
+}
+.image {
+  background-image: url(./Mask\ Group.png);
+  color: white;
 }

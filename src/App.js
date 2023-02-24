@@ -26,22 +26,38 @@ function App() {
         </div>
         <div className="block-2">
           <div className="narrow-block light block-2-first">
-            <p>1</p>
+            <p>Наши сотрудники</p>
           </div>
           <div className="narrow-block light block-2-second">
-            <p>2</p>
+            <p>Просветляет понимающий тест</p>
           </div>
           <div className="narrow-block blue block-2-third">
-            <p>3</p>
+            <p>Интроекция</p>
           </div>
           <div className="wide-narrow-block light block-2-fouth">
-            <p>4</p>
+            <p>Конформизм</p>
           </div>
           <div className="narrow-block yellow block-2-fifth">
-            <p>5</p>
+            <p>Наши сотрудники</p>
           </div>
         </div>
-        <div className="block-3">main content</div>
+        <div className="block-3">
+          <div className="small-block green block-3-first">
+            <p>Понятие модернизации понимает механизм власти</p>
+          </div>
+          <div className="big-block green block-3-second">
+            <p>
+              Гений непредвзято понимает под собой конфликт. Закон внешнего
+              мира, очевидно, реально подчеркивает аксиоматичный здравый смысл.
+              Культ джайнизма включает в себя поклонение Махавире и другим
+              тиртханкарам, поэтому закон исключённого третьего индуцирует
+              изоморфный ротор.
+            </p>
+          </div>
+          <div className="small-block image block-3-third">
+            <p>Наши сотрудники</p>
+          </div>
+        </div>
         <div className="block-4">main content</div>
       </div>
       <header className="App-header-footer">
