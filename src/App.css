@@ -27,9 +27,13 @@
   place-items: center;
   gap: 10px;
   grid-template-areas:
-    "A A A A   A A A A  B B B B"
-    "A A A A   A A A A  C C C C";
+    "A A B"
+    "A A C";
   margin-bottom: 10px;
+  grid-auto-flow: dense;
+  grid-template-columns: repeat(auto-fit, minmax(155px, 241px));
+  grid-template-rows: repeat(2, 241px);
+  max-width: 768px;
 }
 
 .block-1-first {
@@ -66,9 +70,13 @@
   place-items: center;
   gap: 10px;
   grid-template-areas:
-    "A A A A   B B B B  C C C C"
-    "D D D D   D D D D  E E E E";
+    "A B C"
+    "D D E";
     margin-bottom: 10px;
+    grid-auto-flow: dense;
+    grid-template-columns: repeat(auto-fit, minmax(155px, 240px));
+    grid-template-rows: repeat(2, 155px);
+    max-width: 768px;
 }
 .block-2-first {
   grid-area: A;
@@ -105,9 +113,13 @@
   place-items: center;
   gap: 10px;
   grid-template-areas:
-    "A A A A   B B B B  B B B B"
-    "C C C C   B B B B  B B B B";
+    "A B B"
+    "C B B";
     margin-bottom: 10px;
+    grid-auto-flow: dense;
+    grid-template-columns: repeat(auto-fit, minmax(155px, 241px));
+    grid-template-rows: repeat(2, 241px);
+    max-width: 768px;
 }
 .block-3-first {
   grid-area: A;
@@ -132,7 +144,7 @@
 }
 .big-block {
   max-width: 492px;
-  width: 100vw;
+  width: 65vw;
   aspect-ratio: 1/1;
 }
 .grey{
@@ -142,7 +154,7 @@
 }
 .small-block {
   max-width: 241px;
-  width: 100vw;
+  width: 35vw;
   aspect-ratio: 1/1;
 }
 
