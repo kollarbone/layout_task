@@ -43,60 +43,62 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="block-3">
-          <div className="small-block green block-3-first">
-            <p>Понятие модернизации понимает механизм власти</p>
+        <div className="remove-blocks">
+          <div className="block-3">
+            <div className="small-block green block-3-first">
+              <p>Понятие модернизации понимает механизм власти</p>
+            </div>
+            <div className="big-block green block-3-second">
+              <li>
+                <p>Фамилия</p>
+                <div></div>
+                <p>Мамай</p>
+              </li>
+              <li>
+                <p>Имя и отчество</p>
+                <div></div>
+                <p>
+                  Станиславаленина<br></br> Владимировна
+                </p>
+              </li>
+              <li>
+                <p>
+                  Номер полиса выдан заведомо<br></br> ложный
+                </p>
+                <div></div>
+                <p>01354879</p>
+              </li>
+              <li>
+                <p>Дата рождения</p>
+                <div></div>
+                <p>01.12.1976</p>
+              </li>
+              <li>
+                <p>Телефон</p>
+                <div></div>
+                <p>+79254218069</p>
+              </li>
+            </div>
+            <div className="small-block image block-3-third">
+              <p>Наши сотрудники</p>
+            </div>
           </div>
-          <div className="big-block green block-3-second">
-            <li>
-              <p>Фамилия</p>
-              <div></div>
-              <p>Мамай</p>
-            </li>
-            <li>
-              <p>Имя и отчество</p>
-              <div></div>
-              <p>
-                Станиславаленина<br></br> Владимировна
-              </p>
-            </li>
-            <li>
-              <p>
-                Номер полиса выдан заведомо<br></br> ложный
-              </p>
-              <div></div>
-              <p>01354879</p>
-            </li>
-            <li>
-              <p>Дата рождения</p>
-              <div></div>
-              <p>01.12.1976</p>
-            </li>
-            <li>
-              <p>Телефон</p>
-              <div></div>
-              <p>+79254218069</p>
-            </li>
-          </div>
-          <div className="small-block image block-3-third">
-            <p>Наши сотрудники</p>
-          </div>
-        </div>
-        <div className="block-4">
-          <div className="narrow-block orandge block-4-first">
-            <p>Лидерство</p>
-          </div>
-          <div className="wide-narrow-block orandge block-4-second">
-            <p>Однако</p>
-          </div>
-          <div className="narrow-block red block-4-third">
-            <p>Невероятный гений</p>
-          </div>
-          <div className="narrow-block orandge block-4-fouth">
-            <p>Точка перегиба</p>
-          </div>
-          <div className="narrow-block perple block-4-fifth">
-            <p>Длина вектора</p>
+          <div className="block-4">
+            <div className="narrow-block orandge block-4-first">
+              <p>Лидерство</p>
+            </div>
+            <div className="wide-narrow-block orandge block-4-second">
+              <p>Однако</p>
+            </div>
+            <div className="narrow-block red block-4-third">
+              <p>Невероятный гений</p>
+            </div>
+            <div className="narrow-block orandge block-4-fouth">
+              <p>Точка перегиба</p>
+            </div>
+            <div className="narrow-block perple block-4-fifth">
+              <p>Длина вектора</p>
+            </div>
           </div>
         </div>
       </div>

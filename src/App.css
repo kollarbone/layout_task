@@ -5,7 +5,6 @@
   align-items: center;
 }
 .App-header-footer {
-  max-width: 768px;
   width: 100%;
   height: 90px;
   background: #C4C4C4;
@@ -32,7 +31,7 @@
   margin-bottom: 10px;
   grid-auto-flow: dense;
   grid-template-columns: repeat(auto-fit, minmax(155px, 241px));
-  grid-template-rows: repeat(2, 241px);
+  
   max-width: 768px;
 }
 
@@ -77,7 +76,7 @@
     margin-bottom: 10px;
     grid-auto-flow: dense;
     grid-template-columns: repeat(auto-fit, minmax(155px, 240px));
-    grid-template-rows: repeat(2, 155px);
+    
     max-width: 768px;
 }
 .block-2-first {
@@ -120,7 +119,7 @@
     margin-bottom: 10px;
     grid-auto-flow: dense;
     grid-template-columns: repeat(auto-fit, minmax(155px, 241px));
-    grid-template-rows: repeat(2, 241px);
+    
     max-width: 768px;
 }
 
@@ -155,7 +154,7 @@
     margin-bottom: 10px;
     grid-auto-flow: dense;
     grid-template-columns: repeat(auto-fit, minmax(155px, 240px));
-    grid-template-rows: repeat(2, 155px);
+    
     max-width: 768px;
 }
 .block-4-first {
@@ -291,7 +290,7 @@ li p {
     margin-bottom: 10px;
     grid-auto-flow: dense;
     grid-template-columns: repeat(auto-fit, minmax(155px, 241px));
-    grid-template-rows: repeat(2, 102px);
+    
     max-width: 320px;
     justify-content: center;
   }
