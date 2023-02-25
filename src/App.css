@@ -32,13 +32,9 @@
   margin-bottom: 10px;
   grid-auto-flow: dense;
   grid-template-columns: repeat(auto-fit, minmax(155px, 241px));
-  
   max-width: 768px;
 }
 
-.block-1-first {
-  grid-area: A;
-}
 .block-1-first p {
   font-style: normal;
   font-weight: 400;
@@ -48,6 +44,9 @@
   margin: 10%;
   max-height: 272px;
   overflow: auto;
+}
+.block-1-first {
+  grid-area: A;
 }
 .block-1-second {
   grid-area: B;
@@ -115,11 +114,11 @@
   place-items: center;
   gap: 10px;
   grid-template-areas:
-    " A B B"
-    " C B B";
+    "A B B"
+    "C B B";
     margin-bottom: 10px;
     grid-auto-flow: dense;
-    grid-template-columns: repeat(auto-fit, minmax(155px, 241px));
+    grid-template-columns: repeat(auto-fit, minmax(155px, 1fr));
     
     max-width: 768px;
 }
@@ -153,7 +152,7 @@
     "A B B"
     "C D E";
     grid-auto-flow: dense;
-    grid-template-columns: repeat(auto-fit, minmax(155px, 241px));
+    grid-template-columns: repeat(auto-fit, minmax(155px, 1fr));
     
     max-width: 768px;
 }
