@@ -281,6 +281,20 @@ li p {
     display: flex;
     flex-direction: column-reverse;
   }
+  .block-1 {
+    display: grid;
+    place-items: center;
+    gap: 10px;
+    grid-template-areas:
+      "A A B"
+      "A A C";
+    margin-bottom: 10px;
+    grid-auto-flow: dense;
+    grid-template-columns: repeat(auto-fit, minmax(155px, 241px));
+    grid-template-rows: repeat(2, 102px);
+    max-width: 320px;
+    justify-content: center;
+  }
   .block-2 {
     display: grid;
     place-items: center;
@@ -293,7 +307,7 @@ li p {
       grid-auto-flow: dense;
       grid-template-columns: repeat(auto-fit, minmax(155px, 240px));
       grid-template-rows: repeat(2, 155px);
-      max-width: 768px;
+      max-width: 320px;
   }
   .block-4 {
     display: grid;
@@ -307,7 +321,7 @@ li p {
       grid-auto-flow: dense;
       grid-template-columns: repeat(auto-fit, minmax(155px, 240px));
       grid-template-rows: repeat(2, 155px);
-      max-width: 768px;
+      max-width: 320px;
   }
   .narrow-block {
     max-width: 155px;
@@ -322,13 +336,16 @@ li p {
     height: 100vw;
   }
   .big-block {
-    min-width: 210px;
-    width: 63vw;
+    max-width: 210px;
+    width: 100vw;
     aspect-ratio: 1/1;
   }
   .small-block {
-    min-width: 102px;
-    width: 30vw;
+    max-width: 102px;
+    width: 50vw;
     aspect-ratio: 1/1;
+  }
+  .block-1-first p {
+    max-height: 170px;
   }
 }
