@@ -310,15 +310,15 @@ li p {
       max-width: 768px;
   }
   .narrow-block {
-    min-width: 155px;
+    max-width: 155px;
     min-height: 155px;
-    width: 76vw;
+    width: 50vw;
     height: 100vw;
   }
   .wide-narrow-block {
-    min-width: 320px;
+    max-width: 320px;
     min-height: 155px;
-    width: 63vw;
+    width: 100vw;
     height: 100vw;
   }
   .big-block {
