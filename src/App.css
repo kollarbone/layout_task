@@ -31,7 +31,7 @@
     "A A C";
   margin-bottom: 10px;
   grid-auto-flow: dense;
-  grid-template-columns: repeat(auto-fit, minmax(155px, 241px));
+  grid-template-columns: repeat(auto-fit, minmax(155px, 1fr));
   max-width: 768px;
 }
 
@@ -75,7 +75,7 @@
     "D D E";
     margin-bottom: 10px;
     grid-auto-flow: dense;
-    grid-template-columns: repeat(auto-fit, minmax(155px, 242px));
+    grid-template-columns: repeat(auto-fit, minmax(155px, 1fr));
     
     max-width: 768px;
 }
